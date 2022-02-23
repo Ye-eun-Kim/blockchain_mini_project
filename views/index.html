@@ -33,7 +33,7 @@
 
     function getListAll() {
       // Send the form data using post
-      $.get("/listall", function (data) {
+      $.get("/listall", function (data) { 
         console.log('data.getLists : ', data.getLists);
         let productList = data.getLists;
         let table = document.getElementById("table1");
